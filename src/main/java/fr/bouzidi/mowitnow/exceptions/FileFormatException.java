@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * FileFormatException.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.exceptions;
 
 import lombok.Builder;
@@ -6,6 +11,10 @@ import lombok.ToString;
 
 import java.util.List;
 
+
+/**
+ * Exception class to be thrown when given a wrong file format
+ */
 @Builder
 @Data
 @ToString

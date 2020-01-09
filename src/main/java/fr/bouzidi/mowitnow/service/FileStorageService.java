@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * FileStorageService.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.service;
 
 
@@ -14,6 +19,10 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.function.Supplier;
 import java.util.stream.Stream;
+
+/**
+ * A service Component to store given file
+ */
 
 @Service
 @Slf4j

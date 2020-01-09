@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * Validator.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.validator;
 
 @FunctionalInterface

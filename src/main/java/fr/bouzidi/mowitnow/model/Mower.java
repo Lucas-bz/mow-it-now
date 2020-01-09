@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * Mower.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.model;
 
 
@@ -11,6 +16,8 @@ import java.util.Queue;
 import java.util.stream.Collectors;
 
 
+
+
 @AllArgsConstructor
 @ToString
 @EqualsAndHashCode
@@ -19,7 +26,7 @@ import java.util.stream.Collectors;
 public class Mower implements Serializable {
 
 
-    private int id;
+    @EqualsAndHashCode.Exclude private int id;
     private Position position;
     @Builder.Default
     private List<Position> previous = Lists.newArrayList();
@@ -45,6 +52,12 @@ public class Mower implements Serializable {
         this.orientation = orientation.rotateLeft();
     }
 
+
+    /**
+     * A static factory to have a deep clone of a given Mower object
+     * @param input given Mower object
+     * @return a deep clone of Mower
+     */
 
     public static Mower copyFactory(Mower input) {
         if (input == null) {

@@ -11,12 +11,11 @@ import static org.junit.Assert.*;
 public class FileValidatorTest {
 
 
-    private String[] validArray = {"5 5","1 2 N","GAGAGAGAA","3 3 E","AADAADADDA" } ;
-    private String[] notValidArray = {"5 5","1 2 N","GAGADXGAA","3 A E","AADAADADDA" } ;
+    private String[] validArray = {"5 5", "1 2 N", "GAGAGAGAA", "3 3 E", "AADAADADDA"};
+    private String[] notValidArray = {"5 5", "1 2 N", "GAGADXGAA", "3 A E", "AADAADADDA"};
     private String[] emptyArray = {};
 
     private FileValidator validator = new FileValidator();
-
 
 
     @Test
@@ -27,7 +26,7 @@ public class FileValidatorTest {
 
     @Test
     public void test_validate_isNotValid() {
-        ValidationResult result = validator.validate(notValidArray) ;
+        ValidationResult result = validator.validate(notValidArray);
         log.info("Rsult : {}", result);
         assertFalse(result.isValid());
         assertEquals(2, result.getMessages().size());
@@ -36,7 +35,7 @@ public class FileValidatorTest {
 
     @Test
     public void test_validate_emptyFile() {
-        ValidationResult result = validator.validate(emptyArray) ;
+        ValidationResult result = validator.validate(emptyArray);
         assertFalse(result.isValid());
         assertThat(result.getMessages(), contains("File is empty !"));
 

@@ -1,17 +1,36 @@
+/*
+ * Copyright (c) 2020.
+ * ParserConfig.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.config;
 
 
 import com.google.common.collect.Queues;
 import fr.bouzidi.mowitnow.model.*;
 import fr.bouzidi.mowitnow.parser.Parser;
+import lombok.Data;
+import lombok.Getter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.Queue;
 
+
+/**
+ * ParserConfig expose 3 beans :
+ * Parser<Mower> Bean is able to convert a string in to a Mower
+ * Parser<Lawn> Bean is able to convert a string in to a Lawn
+ * Parser<Queue<Instruction>> Bean is able to convert a string in to a Queue<Instruction>
+ */
+
+
+
 @Configuration
+@Data
 public class ParserConfig {
 
+    @Getter
     private static int counter = 0;
 
     @Bean

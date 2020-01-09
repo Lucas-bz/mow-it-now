@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * FileValidator.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.validator;
 
 import com.google.common.collect.Lists;

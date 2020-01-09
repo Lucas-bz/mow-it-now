@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * ApiError.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.controller;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -7,6 +12,8 @@ import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;
 import java.util.List;
+
+
 
 @Builder
 @Data

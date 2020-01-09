@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * MowItNowApplication.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow;
 
 import org.springframework.boot.SpringApplication;

@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * Orientation.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.model;
 
 
@@ -6,6 +11,10 @@ import lombok.Getter;
 import lombok.ToString;
 
 import java.util.Arrays;
+
+/**
+ * enum with possible Orientations
+ */
 
 @AllArgsConstructor
 @ToString

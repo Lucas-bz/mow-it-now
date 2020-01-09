@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * MowService.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.service;
 
 
@@ -15,6 +20,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.Queue;
 import java.util.Set;
+
+
+/**
+ * Mower Service is able to process an array of Strings, validate and process It
+ */
 
 @Service
 public class MowService {

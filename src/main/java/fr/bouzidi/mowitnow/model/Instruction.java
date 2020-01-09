@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2020.
+ * Instruction.java created by farouk
+ */
+
 package fr.bouzidi.mowitnow.model;
 
 
@@ -5,6 +10,10 @@ import lombok.AllArgsConstructor;
 import lombok.ToString;
 
 import java.util.Arrays;
+
+/**
+ * Enum of possible mower instructions
+ */
 
 @AllArgsConstructor
 @ToString
