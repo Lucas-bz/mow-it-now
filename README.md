@@ -37,13 +37,13 @@ Lorsqu'une tondeuse achève une série d'instruction, elle communique sa positio
 orientation.
 
 ---
-#OBJECTIF
+**OBJECTIF
 Concevoir et écrire un programme dans un des langages suivants : Java, Scala, Kotlin,
 JavaScript, Typescript, Python, Go (Si vous souhaitez utiliser un autre langage, bien le valider
 avant auprès de votre chargé de recrutement)
 Ce programme devra implémenter la spécification ci-dessus et passer le test ci-après.
 
-#TEST:
+**TEST:
 Le fichier suivant est fourni en entrée :
 
 5 5
@@ -64,7 +64,7 @@ On attend le résultat suivant (position finale des tondeuses) :
 
 NB: Les données en entrée sont injectées sous forme de fichier.
 
-#Lancer l'application
+**Lancer l'application
 
 Après avoir cloné le projet, lancez la commande : mvn clean install et puis mvn spring-boot:run
 
