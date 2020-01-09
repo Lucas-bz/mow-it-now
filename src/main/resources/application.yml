@@ -1,0 +1,10 @@
+---
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-request-size: 215MB
+
+file:
+  upload-dir: ${HOME}/upload
